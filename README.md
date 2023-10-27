@@ -7,3 +7,15 @@ The main dependencies of this package are:
 ```
 sudo apt install libcaer-dev
 ```
+
+## Usage
+
+The usage of this driver is as simple as connecting the camera via USB and launching:
+```
+rosrun dvxplorer_ros_driver dvxplorer_ros_driver_node   
+```
+You can also edit internal parameters through rqt_reconfigure:
+```
+rosrun rqt_reconfigure rqt_reconfigure 
+```
+
